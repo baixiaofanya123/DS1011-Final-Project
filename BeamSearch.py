@@ -1,5 +1,6 @@
 # PyTorch implementation of beam search decoding for seq2seq models based on https://github.com/shawnwun/NNDIAL.
 # Code modified from function "BeamSearchNode" and "beam_decode" obtained from https://github.com/budzianowski/PyTorch-Beam-Search-Decoding/blob/master/decode_beam.py
+import re
 import sacrebleu
 import operator
 import torch
